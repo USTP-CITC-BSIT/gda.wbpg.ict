@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="with=device-width, initial-scale=1.0">
+        <title>Home</title>
+        <link rel="stylesheet" href="Style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,500;0,600;0,700;1,400&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+    <body>
+        <section class="header">
+            <nav>
+                <div class="nav-links" id="navlinks">
+                    <i class="fa fa-times" onclick="hideMenu()">  </i>
+                    <ul>
+                        <li><a href="index.html">HOME</a></li>
+                        <li><a href="Facts.html">FACTS</a></li>
+                        <li><a href="About.html">ABOUT</a></li>
+                    </ul>
+                </div>
+                <i class="fa fa-bars" onclick="showMenu()"></i>
+            </nav>
+ <div class="text-box">
+     <h1>El Nido</h1>
+     <p>Experience the ralaxing beauty of Plawan.</p>
+     <a href="Facts.html" class="hero-btn">Know more</a>
+ </div>    
+
+        </section>
+
+<!-----Home---->
+<section class="Facts">
+    <h1>Fun Facts About Yowamushi pedal</h1>
+    <p>Here's some fun facts about Yowamushi pedal</p>
+    
+    <div class="row">
+        <div class="fact1">
+            <h3>Location</h3>
+            <p>El Nido is a Philippine municipality on Palawan island.</p>
+        </div>
+
+        <div class="fact1">
+            <h3>Info</h3>
+            <p>During the Spanish colonization of the Philippines, the town was under the jurisdiction of the Municipality of Taytay, which was the capital of the former Province of Calamianes from 1818, and the Province of Castilla, the area of what is now known as northern Palawan, from 1858. It remained part of Taytay until 1916 when it formally became an independent municipality. The new municipality was then known as Bacuit.</p>
+        </div>
+
+        <div class="fact1">
+            <h3>Famous Attraction</h3>
+            <p>It’s known for white-sand beaches, coral reefs and as the gateway to the Bacuit archipelago, a group of islands with steep karst cliffs. Miniloc Island is famed for the clear waters of its Small and Big lagoons. Nearby Shimizu Island has fish-filled waters. The area has many dive sites, including Dilumacad Island’s long tunnel leading to an underwater cavern.</p>
+        </div>
+    </div>
+</section>
+</section>
+
+<!---Know more-->
+<section class="knowmore">
+    <h1>LEARN MORE ABOUT EL NIDO</h1>
+    <a href="" Know More!></a>
+    <a href="About.html" class="hero-btn">Click here!</a>
+</section>
+
+<!--fOOter-->
+
+<section class="Footer">
+    <h4>
+        Created by: Gerald D. Aturo | TVL-ICT .NET
+</section>
+
+<!-----Javascript for toggle Menu----->
+        <script>
+
+            var navlinks= document.getElementById("navlinks")
+
+            function showMenu(){
+                navlinks.style.right="0";
+            }
+            function hideMenu(){
+                navlinks.style.right="-200px";
+            }
+        </script>
+    </body>
+</html>>>
